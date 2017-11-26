@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/English_Button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="English" />
+
+    <Button
+        android:id="@+id/Tamil_Button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:text="Tamil" />
+
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/Image_Pol"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/playstore_icon" />
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/Profile_Textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:paddingLeft="3dp"
+            android:text="T. Velmurugan is a Tamil Nadu(India) politician and Former Member of the Legislative Assembly of Tamil Nadu. He was elected to the Tamil Nadu legislative assembly as a Pattali Makkal Katchi candidate from Panruti constituency in 2001, and 2006 elections. He is often considered to be Tamil Nationalist. He is the founder of the party Tamilaga Vazurimai katchi(TVK)."
+            android:textSize="18sp" />
+
+    </ScrollView>
+
+</LinearLayout>

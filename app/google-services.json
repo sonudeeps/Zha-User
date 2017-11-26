@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "15970872278",
+    "firebase_url": "https://politician-3d5b1.firebaseio.com",
+    "project_id": "politician-3d5b1",
+    "storage_bucket": "politician-3d5b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15970872278:android:c7c0ae967c947a7d",
+        "android_client_info": {
+          "package_name": "com.example.nadus.politician"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15970872278-p1gbph0k97e4bkoecq39vri99hbpm3io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlFzlAGuWRO6vSYXtzDumQabESzvMzmP4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
